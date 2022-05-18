@@ -50,3 +50,7 @@ HYCOM GLB data is not equally spaced in the vertical. To generate vertical avera
 ncks -A weight_file.nc HAB1_mth_2015-08.nc ; ncwa -w vert_weight -a depth HAB1_mth_2015-08.nc HAB1_mth_2015-08_wva.nc;
 ```
 
+## Visualizing the data 
+The easiest way on Linux/OSX to visualize your resulting HYCOM hindcast data is using [VisIt](https://visit-dav.github.io/visit-website/)
+
+
