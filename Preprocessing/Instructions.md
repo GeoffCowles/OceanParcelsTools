@@ -2,10 +2,10 @@
 
 ## Dependencies
 
-(1) wget (usually available on linux/OS X by default)
-(2) nco  (netcdf toolkit).  Available on mac via macbrew and linux (e.g. apt-get install nco)
-(3) cdo (another netcdf toolkit that has a routine to easily strip redundant frames).  Available on mac via macbrew and linux (e.g. apt-get install cdo)
-(4) a gnu-format date command (default on linux, install gdate on OSX)
+- wget (usually available on linux/OS X by default)
+- nco  (netcdf toolkit).  Available on mac via macbrew and linux (e.g. apt-get install nco)
+- cdo (another netcdf toolkit that has a routine to easily strip redundant frames).  Available on mac via macbrew and linux (e.g. apt-get install cdo)
+- a gnu-format date command (default on linux, install gdate on OSX)
 
 ## Select HYCOM Experiments
 When HYCOM makes small changes to input or forcing or bulk parameterizations, they assign a new experiment number.  Most experiments run a year or two.    See here (https://tds.hycom.org/thredds/catalog.html) for date ranges of GLB hindcasts.
